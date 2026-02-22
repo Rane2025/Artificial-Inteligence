@@ -5,6 +5,7 @@ image = cv2.imread("image.png")
 
 # Convert to grayscale
 gray_image = cv2.cvtColor(image, cv2.COLOR_BGR2GRAY)  
+
 # Resize the grayscale image
 resized_image = cv2.resize(gray_image, (224, 224))  
 # Show the processed image
