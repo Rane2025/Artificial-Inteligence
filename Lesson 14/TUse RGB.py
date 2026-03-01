@@ -32,7 +32,7 @@ def apply_filter(image, ftype):
 # If you remove a word (exept coments) their will be a huge problem!
 def main():
     # Load the image
-    cap = cv2.VideoCapture(0)
+    cap = cv2.VideoCapture(1)
     if not cap.isOpened():
         print("Error: Could not open webcam.")
         return
